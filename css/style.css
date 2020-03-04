@@ -1444,7 +1444,7 @@ body.blog_page {
     top: 0;
     font-size: 20px;
     line-height: 24px;
-    color: #3fcaff;
+    color: #f9f9ffff;
     font-weight: 600; }
   .contact_info .info_item h6 {
     font-size: 16px;
@@ -1452,9 +1452,9 @@ body.blog_page {
     color: "Roboto", sans-serif;
     font-weight: bold;
     margin-bottom: 0px;
-    color: #222222; }
+    color: #f9f9ffff; }
     .contact_info .info_item h6 a {
-      color: #222222; }
+      color: #f9f9ffff; }
   .contact_info .info_item p {
     font-size: 14px;
     line-height: 24px;
