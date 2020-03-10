@@ -1,1 +1,1 @@
-[Link to the website!](steinbeis-ai-consulting-center.github.io)
+[Link to the website!](https://steinbeis-ai-consulting-center.github.io)
