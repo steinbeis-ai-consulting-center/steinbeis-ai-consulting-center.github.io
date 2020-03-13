@@ -93,6 +93,7 @@ img {
 /* Main Title Area css
 ============================================================================================ */
 .main_title {
+  margin-top: 30px;
   text-align: center;
   margin-bottom: 80px; }
   .main_title h2 {
@@ -3193,7 +3194,7 @@ h6 {
     margin-bottom: 23px; }
 
   .header_area .navbar {
-    background: #000; }
+    background:  #2c2172; }
 
   .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
     opacity: 1; }
