@@ -3560,6 +3560,12 @@ h6 {
       line-height: 40px;
       padding: 25px 0 25px;
       font-size: 30px; } }
+
+  .primary_btn {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .section_gap {
     padding: 80px 0; }
@@ -3568,6 +3574,11 @@ h6 {
     padding-top: 40px;
     padding-left: 40px;
     padding-right: 40px; }
+
+  .blog_categorie_area {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 
   .main_title {
     margin-bottom: 50px; }
@@ -3640,6 +3651,10 @@ h6 {
     padding-top: 30px;
     padding-left: 30px;
     padding-right: 30px; }
+  .blog_categorie_area {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 
   .section_content {
     padding: 50px 10px 50px 50px; }
@@ -3744,6 +3759,11 @@ h6 {
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px; }
+
+  .blog_categorie_area {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 
   .section_content {
     padding: 35px 10px 35px 35px !important; }
