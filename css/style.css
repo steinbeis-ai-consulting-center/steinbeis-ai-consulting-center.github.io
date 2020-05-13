@@ -16,7 +16,7 @@ Author E-mail: naimlasker@gmail.com
 /*font Variables*/
 /*Color Variables*/
 /*=================== fonts ====================*/
-@import url("https://fonts.googleapis.com/css?family=Rajdhani:600,700|Roboto:400,500,500i");
+@import url("https://fonts.googleapis.com/css?family=Raleway:600,700|Roboto:400,500,500i");
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 /* Medium Layout: 1280px */
@@ -38,7 +38,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Rajdhani", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 600; }
 
 .list {
@@ -149,6 +149,12 @@ img {
     line-height: 45px;
     padding: 30px 0 30px;
     margin-bottom: 0; }
+  .section_content h2 {
+    color: #fff;
+    line-height: 45px;
+    padding: 30px 0 30px;
+    margin-bottom: 0; }
+
   .section_content p {
     margin-bottom: 0px;
     color: #fff;
@@ -236,6 +242,38 @@ img {
   .primary_btn:hover {
     background-position: right center;
     color: #22195e; }
+
+.hiring_btn {
+  display: inline-block;
+  background: -webkit-linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+  background: -moz-linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+  background: -ms-linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+  background: -o-linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+  background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+  background-size: 200% auto;
+  padding: 0px 35px;
+  color: #222222;
+  letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 50px;
+  border-radius: 5px;
+  border-color: #fff;
+  outline: none !important;
+  box-shadow: 0px 10px 30px rgba(163, 255, 177, 0.2);
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  text-transform: uppercase; }
+  .hiring_btn:hover {
+    background-position: right center;
+    color: #22195e; }
+
+.typeform-share 
 
 .overlay, .single-gallery .content {
   position: absolute;
@@ -512,13 +550,13 @@ img {
       margin-left: 70px; }
       .home_banner_area .banner_inner .banner_content h2 {
         margin-top: 0px;
-        font-size: 60px;
+        font-size: 50px;
         font-weight: bold;
         line-height: 72px;
         margin-bottom: 20px; }
       .home_banner_area .banner_inner .banner_content p {
-        color: #fff;
-        font-size: 16px;
+        color: #d9d9d9;
+        font-size: 18px;
         margin-bottom: 20px; }
       .home_banner_area .banner_inner .banner_content .watch_video {
         margin: 0 30px;
@@ -584,7 +622,7 @@ img {
     .banner_area .banner_inner .banner_content h2 {
       color: #fff;
       font-size: 36px;
-      font-family: "Rajdhani", sans-serif;
+      font-family: "Raleway", sans-serif;
       margin-bottom: 0px;
       text-transform: uppercase;
       font-weight: bold;
@@ -2811,7 +2849,7 @@ h6 {
       height: 50px;
       line-height: 50px;
       font-size: 18px;
-      font-family: "Rajdhani", sans-serif;
+      font-family: "Raleway", sans-serif;
       font-weight: 600;
       color: #fff; }
       .recent_update_inner .nav.nav-tabs li a:after {
@@ -2906,7 +2944,7 @@ h6 {
 ============================================================================================ */
 .testimonials_area {
   position: relative;
-  background: url(../img/testimonial_bg.png) no-repeat center;
+  background: url(../img/Techstarswinners.jpg) no-repeat center;
   background-size: cover; }
 
 .testi_slider {
@@ -3095,7 +3133,7 @@ h6 {
         font-size: 18px;
         font-weight: 600;
         color: #fff;
-        font-family: "Rajdhani", sans-serif; }
+        font-family: "Raleway", sans-serif; }
       .blog_area .blog_items .blog_content p {
         color: #ddd;
         font-weight: 400;
@@ -3177,11 +3215,18 @@ h6 {
 
   .home_banner_area .banner_inner .banner_content h2 br {
     display: none;
-    font-size: 36px; }
+    font-size: 36px; 
+    font-family: "Raleway", sans-serif;
+  }
 
   .home_banner_area .banner_inner .banner_content h2 {
     font-size: 36px;
-    line-height: 45px; } }
+    line-height: 45px; 
+    font-family: "Raleway", sans-serif;
+    }
+
+
+ }
 @media (max-width: 991px) {
   /* Main Menu Area css
   ============================================================================================ */
@@ -3573,6 +3618,7 @@ h6 {
     margin-bottom: 15px !important; }
     .footer_area .f_widget ul li {
       padding-bottom: 15px !important; }
+   
   .footer_area .f_widget .f_title {
     margin-bottom: 30px !important; }
 
@@ -3601,8 +3647,8 @@ h6 {
     .main_title h2 {
       font-size: 60px; }
 
-  .about_us_area .about_us_image_box {
-    display: none; }
+/*  .about_us_area .about_us_image_box {
+    display: none; }*/
   .about_us_area .about_content:before {
     width: 100%; }
 
@@ -3711,8 +3757,8 @@ h6 {
   .gallery_area {
     padding: 60px 0 40px; }
 
-  .about_us_area .about_us_image_box {
-    display: none; }
+/*  .about_us_area .about_us_image_box {
+    display: none; }*/
   .about_us_area .about_content:before {
     width: 100%; }
 
@@ -3837,6 +3883,13 @@ h6 {
       cursor: pointer; }
       .footer_area .f_widget ul li:hover {
         color: #3fcaff; }
+      .footer_area .f_widget ul li a {
+      padding-bottom: 10px !important;
+      color: rgba(255, 255, 255, 0.5); }
+      .footer_area .f_widget ul li a:hover {
+      padding-bottom: 10px !important;
+       color: #3fcaff; }
+
 
 .single-footer-widget {
   padding: 30px 0;
